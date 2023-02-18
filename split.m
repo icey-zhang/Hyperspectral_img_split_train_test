@@ -26,7 +26,6 @@
 % test_data = reshape(y_test,size(gt, 1),size(gt, 2));
 % save('train_test_gt_1.mat','train_data','test_data')
 %% augsburg
-% load('C:\Users\20210426\Desktop\dataset\Houston 2013\Houston 2012.mat')
 load('C:\Users\20210426\Desktop\dataset\Augsburg\mask_test.mat')
 load('C:\Users\20210426\Desktop\dataset\Augsburg\mask_train.mat')
 gt = mask_test+mask_train;
